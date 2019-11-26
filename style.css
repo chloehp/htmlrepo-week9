@@ -1,9 +1,9 @@
 /*@import url("https://fonts~~~")*/
 
-root{
+:root{
     --accent: #ff66bf;
     --dark: #1a2636;
-    --light #ebf5ee;
+    --light: #EBF5EE;
     --border: 5px solid var(--accent);
 }
 
@@ -41,3 +41,33 @@ div{
 
 /*start of demo*/
 
+.table{
+    display: table;
+}
+
+.table p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    /*align-items: center;
+    justify-content: center;*/
+    place-items: center;
+}
+
+.margins{
+    /*display: flex;*/
+    display: grid;
+}
+
+.margins p{
+    margin: auto;
+}
