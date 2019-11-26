@@ -1,9 +1,9 @@
 /*@import url("https://fonts~~~")*/
 
 :root{
-    --accent: #ff66bf;
-    --dark: #1a2636;
-    --light: #EBF5EE;
+    --accent: #7eacd8;
+    --dark: #fff4fe;
+    --light: rgb(58, 54, 77);
     --border: 5px solid var(--accent);
 }
 
@@ -28,6 +28,7 @@ div{
     height: 80vh;
     margin: 10vh 0;
     border: var(--border);
+    border-radius: 15px;
 }
 
 .title{
